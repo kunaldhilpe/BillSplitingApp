@@ -7,6 +7,8 @@ function button(){
 
     let billSplitAmount = document.getElementById("result");
     billSplitAmount.innerText = billSplit;
+    amount.value = 0;
+    persons.value = 0;
 
 
 }
